@@ -4,7 +4,7 @@ image = Image.open('image.jpg')
 image.show()
 
 draw = ImageDraw.Draw(image)
-text = 'Parsa Mohammadpour - 98243050'
+text = 'Parsa Mohammadpour - {student_id}'
 
 font = ImageFont.truetype('arial.ttf', 40)
 
